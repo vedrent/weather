@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background: linear-gradient(90deg, yellow,  rgb(90, 149, 238));
+    min-height: 100px;
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+.left{
+    margin-right: 60vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 30px;
+    transition: 1s ease-in-out;
+}
+button:hover{
+    background-color: orange;
+}
+.right{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+
+}
